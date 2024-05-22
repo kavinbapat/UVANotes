@@ -1,0 +1,192 @@
+.dept-button {
+    width: 30%;
+    height: 10%;
+    background-color: #feffce;
+    margin: 10px;
+    padding: 7%;
+    box-shadow: 3px 4px 6px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 4px 6px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 6px 1px rgba(0,0,0,0.75);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.course-button {
+    width: 25%;
+    height: 10%;
+    background-color: #feffce;
+    margin: 10px;
+    padding: 7%;
+    box-shadow: 3px 4px 6px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 4px 6px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 6px 1px rgba(0,0,0,0.75);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.dept-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#searchDept, #searchCourse {
+    width: 50%; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    width: 30%;
+    margin: auto;
+}
+
+label[for="username"]{
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+label[for="password"]{
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.login-input{
+    border-color: black;
+    border-radius: 2rem;
+    padding: 6px;
+    padding-left: 12px;
+}
+
+.login-button{
+    width: 40%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px; 
+    border-radius: 1rem;
+}
+
+.login-button:hover{
+    scale: 1.05
+}
+
+.error{
+    text-align: center;
+    color: red;
+    margin-top: 1rem;
+}
+
+.instruction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddefff; 
+    /* margin: 0; */
+    /* padding: 0; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+}
+
+.home {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    /* max-width: 600px;  */
+}
+
+.header {
+    color: #034078; 
+    font-size: 3rem; 
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #ffc300; 
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.2rem; 
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    background-color: #a2d2ff; 
+    color: #034078; 
+}
+
+.profile-information-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
